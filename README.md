@@ -1,7 +1,9 @@
 # CSE-348_TermProject
 This is a project I have done for CSE-348 (Database Management Systems) course for my university education.
 
-The project takes example names for people, cities, districts, markets, etc. from CSV files under the directory csv_files and uses them to create and fill a random database. Afterwards, we use this random database to get the results required.
+The project takes example names for people, cities, districts, markets, etc. from CSV files under the directory csv_files and uses them to create and fill a random database. Afterwards, the project uses this random database to get the results required.
+
+I have use php, html, javascript, css and ajax for this project.  
 
 # Example Screenshot
 
