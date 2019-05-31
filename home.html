@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Database and Tables Showing Page</title>
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+	<script src="show.js"></script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/chart.js/dist/Chart.js"></script>
+</head>
+
+<body>
+	<div>
+		<table style="width:900px;">
+			<tr>
+				<td>
+					<button class="button_green" type="button" onclick="installDB();">
+						Install DB
+					</button>
+				</td>
+				<td>
+					<button class="button_red" type="button" onclick="deleteDB();">
+						Delete DB
+					</button>
+				</td>
+				<td>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="div_districts"></div>
+				</td>
+				<td>
+					<div id="div_cities"></div>
+				</td>
+				<td>
+					<button class="button_green" type="button" onclick="show_markets_sale_count();">
+						Show Markets' Sales
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="div_markets"></div>
+				</td>
+				<td>
+
+				</td>
+				<td>
+					<div id="div_salesmans"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class="button_green" type="button" onclick="show_market_salesman_sales();">
+						Show All Salesmans Sales
+					</button>
+				</td>
+				<td>
+					<button class="button_green" type="button" onclick="show_market_product_sales();">
+						Show Product Sales
+					</button>
+				</td>
+				<td>
+					<button class="button_green" type="button" onclick="show_salesman_product_sales();">
+						Show Salesman Sales
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="div_customers"></div>
+				</td>
+				<td>
+					<button class="button_green" type="button" onclick="show_customer_purchases();">
+						Show Customer' Purchases
+					</button>
+				</td>
+				<td>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class="button_green" type="button" onclick="show_allsales_eachdistrict();">
+						Show Sales Divided into District
+					</button>
+				</td>
+				<td>
+					<button class="button_green" type="button" onclick="show_allsales_eachmarket();">
+						Show Sales Divided into Market
+					</button>
+				</td>
+				<td>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div style="width: 900px;">
+		<div id="div_result"></div>
+	</div>
+</body>
+
+</html>

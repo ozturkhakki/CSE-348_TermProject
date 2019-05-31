@@ -1,0 +1,43 @@
+select {
+	background-color: white;
+	width: 256px;
+	border: 1px solid black;
+	color: black;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 14px;
+}
+table, td {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 14px;
+}
+tr, th {
+	border: 0;
+	text-align: center;
+}
+div { 
+	text-align: center;
+}
+button {
+	width: 256px;
+	background-color: white;
+	border: none;
+	color: white;
+	padding: 8px 25px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.button_green {
+	background-color: #00b16a;
+}
+.button_green:hover {
+	background-color: #1e824c;
+}
+.button_red {
+	background-color: #f62459;
+}
+.button_red:hover {
+	background-color: #96281b;
+}
